@@ -1,0 +1,70 @@
+:root {
+    --background-color: #d9d9d9;
+    --nav-background-color: #424141;
+    --text-color: black;
+}
+  
+[data-theme="dark"] {
+    --background-color: #151515;
+    --nav-background-color: #292929;
+    --text-color: white;
+}
+
+html,
+body {
+    height: 90vh;
+    margin: 0;
+    background-color: var(--background-color);;
+    font-family: "Segoe UI", Verdana, sans-serif;
+    color: var(--text-color);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+h1, h2 {
+    color: #94692d;
+}
+
+#footer{
+    margin-top: auto;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #94692d;
+}
+#footer-text {
+    text-align: center;
+}
+
+#footer-logo-image {
+    width: 100px;
+    height: auto;
+}
+
+#view {
+    padding-top: 100px;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    border: solid 1px #94692D;
+    color: #94692D;
+    font-weight: bold;
+}
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.chip {
+    font-size: 16px;
+}
