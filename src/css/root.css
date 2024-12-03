@@ -1,12 +1,14 @@
 :root {
-    --background-color: #d9d9d9;
-    --nav-background-color: #424141;
+    --background-color: #fafafa;
+    --nav-background-color: #c7c4bb;
+    --left-nav-background-color: #baad91;
     --text-color: black;
 }
   
 [data-theme="dark"] {
     --background-color: #151515;
     --nav-background-color: #292929;
+    --left-nav-background-color: #4e3a1f;
     --text-color: white;
 }
 
@@ -21,7 +23,7 @@ body {
     padding-right: 5%;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #94692d;
 }
 
@@ -48,23 +50,15 @@ h1, h2 {
     padding-top: 100px;
 }
 
-.chip {
-    display: inline-block;
-    padding: 0 25px;
-    height: 50px;
-    line-height: 50px;
-    border-radius: 25px;
-    border: solid 1px #94692D;
-    color: #94692D;
-    font-weight: bold;
-}
-.chip img {
-    float: left;
-    margin: 0 10px 0 -25px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-}
-.chip {
-    font-size: 16px;
+#left-nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    background-color: var(--left-nav-background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: width 0.3s ease;
 }

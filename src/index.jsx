@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import Footer from "./Footer.jsx";
 import Nabvar from "./Navbar.jsx";
+import LeftNav from "./LeftNav.jsx";
 // @ts-ignore
 import './css/root.css';
 
@@ -16,6 +17,10 @@ function Root() {
     return (
         <BrowserRouter>
             <Nabvar theme={theme} setTheme={setTheme} />
+
+            
+            <LeftNav />
+            
 
             <div id="view">
                 

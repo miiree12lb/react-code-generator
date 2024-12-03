@@ -1,15 +1,3 @@
-:root {
-    --background-color: #d9d9d9;
-    --nav-background-color: #5d5d5d;
-    --text-color: black;
-}
-  
-[data-theme="dark"] {
-    --background-color: #151515;
-    --nav-background-color: #292929;
-    --text-color: white;
-}
-
 .nav-bar {
     position: fixed;
     background-color: var(--nav-background-color);
@@ -20,7 +8,7 @@
     padding-left: 5%;
     align-items: center;
     display: flex;
-    gap: 5px;
+    justify-content: space-between;
     min-height: 70px;
     z-index: 3;
 }
@@ -30,8 +18,32 @@ button {
     background-color: transparent;
     border: none;
     color: var(--text-color);
+    cursor: pointer;
+    align-items: center;
 }
 
 button:hover {
     color: #94692D;
 }
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 25px;
+    border: solid 1px #94692D;
+    color: #94692D;
+    font-weight: bold;
+}
+.chip img {
+    float: left;
+    margin: -10px 10px 0 -35px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.chip {
+    font-size: 16px;
+}
+

@@ -1,0 +1,46 @@
+#left-text-container {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10px; /* Text at the top */
+    left: 10px;
+}
+
+#collapse-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#collapse-arrow:hover {
+    color: #94692D;
+}
+
+#caret {
+    font-size: 16px;
+}
+
+#resizer {
+    width: 5px;
+    background-color: var(--resizer-background-color, #ccc);
+    cursor: ew-resize;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+#resizer:hover {
+    background-color: var(--resizer-hover-color, #aaa);
+}
