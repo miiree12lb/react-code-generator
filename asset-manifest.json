@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-code-generator/static/css/main.4857de86.css",
-    "main.js": "/react-code-generator/static/js/main.de38e709.js",
-    "static/media/logo.png": "/react-code-generator/static/media/logo.41cfb9e489f010ce62b5.png",
+    "main.css": "/react-code-generator/static/css/main.def88b05.css",
+    "main.js": "/react-code-generator/static/js/main.5bf63f1f.js",
+    "static/media/logo.png": "/react-code-generator/static/media/logo.76cf9eda8eea70c787d8.png",
     "static/media/instagram.svg": "/react-code-generator/static/media/instagram.f1b93ec68f3f311e5c68d6085a9b479c.svg",
     "index.html": "/react-code-generator/index.html",
     "static/media/linkedin.svg": "/react-code-generator/static/media/linkedin.3f6d644cac1e5dd5bb4675ccea3d9ff3.svg",
-    "main.4857de86.css.map": "/react-code-generator/static/css/main.4857de86.css.map",
-    "main.de38e709.js.map": "/react-code-generator/static/js/main.de38e709.js.map"
+    "main.def88b05.css.map": "/react-code-generator/static/css/main.def88b05.css.map",
+    "main.5bf63f1f.js.map": "/react-code-generator/static/js/main.5bf63f1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4857de86.css",
-    "static/js/main.de38e709.js"
+    "static/css/main.def88b05.css",
+    "static/js/main.5bf63f1f.js"
   ]
 }
