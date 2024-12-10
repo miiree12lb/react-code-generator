@@ -31,16 +31,33 @@
     font-size: 16px;
 }
 
-#resizer {
-    width: 5px;
-    background-color: var(--resizer-background-color, #ccc);
-    cursor: ew-resize;
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
+
+h4 {
+    cursor: pointer;
 }
 
-#resizer:hover {
-    background-color: var(--resizer-hover-color, #aaa);
+.dropdown {
+    width: 250px;
+    display: grid;
+    grid-template-columns: calc(50% - 5px) calc(50% - 5px);
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.item {
+    padding: 5px 10px;
+    background-color: var(--nav-background-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.item:hover {
+    background-color: var(--left-nav-hover);
+}
+
+.item h1, .item h2, .item h3 {
+    color: var(--text-color);
 }
