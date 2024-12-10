@@ -62,3 +62,10 @@ h1, h2, h3 {
     justify-content: flex-start;
     transition: width 0.3s ease;
 }
+
+#input-area, #output-area {
+    border: solid 1px #94692d;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    height: 90vh;
+}

@@ -28,11 +28,11 @@ function Root() {
                 }}
             >
                 <div id="input-area">
-                    {/* Input area content */}
+                    <h1>Design Area</h1>
                 </div>
 
                 <div id="output-area">
-                    {/* Output area content */}
+                    <h1>Generated Code</h1>
                 </div>
             </div>
 
